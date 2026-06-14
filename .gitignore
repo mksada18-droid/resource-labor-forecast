@@ -1,0 +1,42 @@
+# Compiled files
+*.class
+*.jar
+*.war
+*.ear
+
+# IDE
+.idea/
+.vscode/
+*.iml
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.bak
+*.cache
+
+# Environment
+.env
+.env.local
+.env.production
+
+# Build directories
+target/
+build/
+dist/
+node_modules/
+
+# Package files
+*.zip
+*.tar.gz
+
+# Made with Bob
