@@ -1,0 +1,8 @@
+[phases.setup]
+nixPkgs = ['maven', 'jdk17']
+
+[phases.build]
+cmds = ['mvn clean install -DskipTests']
+
+[phases.start]
+cmd = 'java -jar target/resource-labor-forecast-1.0.0.jar'
